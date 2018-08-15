@@ -1,0 +1,5015 @@
+{
+  "data": {
+    "__schema": {
+      "types": [
+        {
+          "name": "AuteursLeg",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Scrutin",
+          "fields": [
+            {
+              "name": "dateScrutin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "demandeur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "miseAuPoint",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "modePublicationDesVotes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numero",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "objet",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "quantiemeJourSeance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "seanceRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "sessionRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "sort",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "syntheseVote",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeVote",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ventilationVotes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "xmlXsi",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeLeg",
+          "fields": [
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Correction",
+          "fields": [
+            {
+              "name": "niveauCorrection",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeCorrection",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Cosignataires",
+          "fields": [
+            {
+              "name": "cosignataires",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SyntheseVote",
+          "fields": [
+            {
+              "name": "annonce",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "decompte",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nbrSuffragesRequis",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nombreVotants",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "suffragesExprimes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__Schema",
+          "fields": [
+            {
+              "name": "types",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "queryType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mutationType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "subscriptionType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "directives",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "LibelleActe",
+          "fields": [
+            {
+              "name": "libelleCourt",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nomCanonique",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierInitiativeExecutif",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotInitiative",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeExterne",
+          "fields": [
+            {
+              "name": "codeType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrege",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrev",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeParent",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "vimode",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "RetraitInitiative",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "LieuElection",
+          "fields": [
+            {
+              "name": "departement",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numCirco",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numDepartement",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "region",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regionType",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ListeActeursRef",
+          "fields": [
+            {
+              "name": "acteursRefs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotLettreRectificative",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SaisieComAvis",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "CauseFusionDossier",
+          "fields": null
+        },
+        {
+          "name": "String",
+          "fields": null
+        },
+        {
+          "name": "CreationOrganeTemporaire",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TypeOrgane",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libellePluriel",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Mandat",
+          "fields": null
+        },
+        {
+          "name": "ParticipantInterne",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "presence",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SaisieComFond",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Titres",
+          "fields": [
+            {
+              "name": "titrePrincipal",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titrePrincipalCourt",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecompteMiseAuPoint",
+          "fields": [
+            {
+              "name": "abstentions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "contres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nonVotants",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nonVotantsVolontaires",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "pours",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeVote",
+          "fields": [
+            {
+              "name": "organe",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InitiateursCreationOrganeTemporaire",
+          "fields": [
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AmendementsSeance",
+          "fields": [
+            {
+              "name": "amendable",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateLimiteDepot",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Document",
+          "fields": null
+        },
+        {
+          "name": "EtatCivil",
+          "fields": [
+            {
+              "name": "dateDeces",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ident",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infoNaissance",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ContributionInternaute",
+          "fields": [
+            {
+              "name": "dateFermeture",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateOuverture",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "MandatParlementaire",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "collaborateurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "datePublication",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "election",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosHorsSian",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nominPrincipale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organesRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "preseance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeOrgane",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ListePays",
+          "fields": [
+            {
+              "name": "paysRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "VotantAvecMotivationVote",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "causePositionVote",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandatRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganesInitiateur",
+          "fields": [
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SocProInsee",
+          "fields": [
+            {
+              "name": "catSocPro",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "famSocPro",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Reunion",
+          "fields": [
+            {
+              "name": "compteRenduRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "demandeurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "formatReunion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "identifiants",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosReunionsInternationale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "lieu",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "odj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeReuni",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeReuniRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ouverturePresse",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "participants",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "sessionRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "timestampDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "timestampFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeReunion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PhotoDepute",
+          "fields": [
+            {
+              "name": "chemin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cheminMosaique",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "hauteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "largeur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "xMosaique",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "yMosaique",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AmendementsCommission",
+          "fields": [
+            {
+              "name": "commissions",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PointsOdj",
+          "fields": [
+            {
+              "name": "pointsOdj",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecompteVotants",
+          "fields": [
+            {
+              "name": "votants",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TexteAssocie",
+          "fields": [
+            {
+              "name": "refTexteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeTexte",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "EtudeImpact",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "contributionInternaute",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Imprimerie",
+          "fields": [
+            {
+              "name": "prix",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Participants",
+          "fields": [
+            {
+              "name": "participantsInternes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "personnesAuditionnees",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeParlementaire",
+          "fields": [
+            {
+              "name": "chambre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrege",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrev",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeParent",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regime",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "secretariat",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "vimode",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TypeRapporteur",
+          "fields": null
+        },
+        {
+          "name": "RapportParlementaire",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "classification",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "correction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "denominationStructurelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "imprimerie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "notice",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "redacteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotInitiativeNavette",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InfoJo",
+          "fields": [
+            {
+              "name": "typeJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "pageJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "urlLegifrance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "referenceNor",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "NominRapporteurs",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "rapporteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "reunion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Objet",
+          "fields": [
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "referenceLegislative",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__Type",
+          "fields": [
+            {
+              "name": "name",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "kind",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fields",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ofType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "inputFields",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "interfaces",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "possibleTypes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "enumValues",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecisionMotionCensure",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "decision",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "odjSeanceRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "voteRefs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Demandeur",
+          "fields": [
+            {
+              "name": "referenceLegislative",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texte",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecompteVoix",
+          "fields": [
+            {
+              "name": "abstentions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "contre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nonVotants",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nonVotantsVolontaires",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "pour",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TexteEuropeen",
+          "fields": [
+            {
+              "name": "titreTexteEuropeen",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeTexteEuropeen",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "EtudePlf",
+          "fields": [
+            {
+              "name": "missionMinefi",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ordreCommission",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ordreDiqs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "rapporteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Promulgation",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeLoi",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infoJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infoJoRect",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "referenceNor",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteLoiRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreLoi",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "urlEcheancierLoi",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "urlLegifrance",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ModePublicationDesVotes",
+          "fields": null
+        },
+        {
+          "name": "TypeMission",
+          "fields": null
+        },
+        {
+          "name": "Ident",
+          "fields": [
+            {
+              "name": "alpha",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "civ",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nom",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "prenom",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "trigramme",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Famille",
+          "fields": [
+            {
+              "name": "classe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "depot",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "espece",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Election",
+          "fields": [
+            {
+              "name": "causeMandat",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "lieu",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "refCirconscription",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActeursInitiateur",
+          "fields": [
+            {
+              "name": "acteurs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierMissionInformation",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecompteVotantsAvecMotivationVote",
+          "fields": [
+            {
+              "name": "votants",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "fields": null
+        },
+        {
+          "name": "ConclusionEtapeCc",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "anneeDecision",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numDecision",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "statutConclusion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "urlConclusion",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotAvisConseilEtat",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Profession",
+          "fields": [
+            {
+              "name": "libelleCourant",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "socProInsee",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AccordInternational",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "classification",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "correction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "denominationStructurelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "imprimerie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "notice",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "redacteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActeurLeg",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandatRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "qualite",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeInitiateur",
+          "fields": [
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DecisionRecevabiliteBureau",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "decision",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "formuleDecision",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "MotionProcedure",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "auteurMotion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateRetrait",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeMotion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "voteRefs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeParlementaireInternational",
+          "fields": [
+            {
+              "name": "chambre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrege",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrev",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "listePays",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeParent",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regime",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "secretariat",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "vimode",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActeLegislatif",
+          "fields": null
+        },
+        {
+          "name": "MandatSimple",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "datePublication",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nominPrincipale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organesRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "preseance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeOrgane",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InfoJoce",
+          "fields": [
+            {
+              "name": "dateJoce",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "refJoce",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "EmptyChoice",
+          "fields": null
+        },
+        {
+          "name": "CycleDeVie",
+          "fields": [
+            {
+              "name": "chrono",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "etat",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierResolutionAN",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActeurCosignataire",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PointOdj",
+          "fields": null
+        },
+        {
+          "name": "Organe",
+          "fields": null
+        },
+        {
+          "name": "XmlNamespace",
+          "fields": null
+        },
+        {
+          "name": "InfoNaissance",
+          "fields": [
+            {
+              "name": "dateNais",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "depNais",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "paysNais",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "villeNais",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DiscussionCommission",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "odjRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "reunionRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "MissionBase",
+          "fields": [
+            {
+              "name": "libelleCourt",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleLong",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeBudget",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeMission",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ParticipantsInternes",
+          "fields": [
+            {
+              "name": "participantsInternes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Codier",
+          "fields": [
+            {
+              "name": "famCode",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotRapport",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAdopte",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Odj",
+          "fields": [
+            {
+              "name": "convocationOdj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "pointsOdj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "resumeOdj",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "RenvoiPrealable",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PodjReunion",
+          "fields": [
+            {
+              "name": "comiteSecret",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "demandeurPoint",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossiersLegislatifsRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "objet",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedure",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "textesAssocies",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typePointOdj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DiscussionSeancePublique",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "odjRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "reunionRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "CausePositionVote",
+          "fields": null
+        },
+        {
+          "name": "UnstructuredPointsOdj",
+          "fields": [
+            {
+              "name": "items",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Divisions",
+          "fields": [
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Cosignataire",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "edite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateCosignature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateRetraitCosignature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organe",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SaisineConseilConstit",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "casSaisine",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "motif",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierLegislatif",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "plf",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierCommissionEnquete",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "MandatAvecSuppleant",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "datePublication",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nominPrincipale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organesRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "preseance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeOrgane",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Initiateur",
+          "fields": [
+            {
+              "name": "acteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Identifiants",
+          "fields": [
+            {
+              "name": "dateSeance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "idJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numSeanceJo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "quantieme",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierMissionControle",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PersonneAuditionnee",
+          "fields": [
+            {
+              "name": "dateNais",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "ident",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Commission",
+          "fields": [
+            {
+              "name": "amendable",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateLimiteDepot",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TextesAssocies",
+          "fields": [
+            {
+              "name": "textesAssocies",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TypeBudget",
+          "fields": null
+        },
+        {
+          "name": "CodeEtLibelle",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotMotionCensure",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateRetrait",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeMotionCensure",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TexteLoi",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "classification",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "correction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cosignataires",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "denominationStructurelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "depotAmendements",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "imprimerie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "notice",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "redacteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DateTimeFixedOffset",
+          "fields": null
+        },
+        {
+          "name": "__Field",
+          "fields": [
+            {
+              "name": "name",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "args",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "type",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "isDeprecated",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "deprecationReason",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotAccordInternational",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DeclarationGouvernement",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteAssocie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeDeclaration",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Notice",
+          "fields": [
+            {
+              "name": "adoptionConforme",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "formule",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "numNotice",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Chrono",
+          "fields": [
+            {
+              "name": "cloture",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "creation",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "PersonnesAuditionnees",
+          "fields": [
+            {
+              "name": "personnesAuditionnees",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Indexation",
+          "fields": [
+            {
+              "name": "themes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeExtraParlementaire",
+          "fields": [
+            {
+              "name": "chambre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrege",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrev",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nombreReunionsAnnuelles",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeParent",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regime",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regimeJuridique",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteInternet",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "vimode",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "FonctionOrgane",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libellePluriel",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typesOrganes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Decision",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "reunionRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "statutConclusion",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "textesAssocies",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "voteRefs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Uid",
+          "fields": [
+            {
+              "name": "text",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeUid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Theme",
+          "fields": [
+            {
+              "name": "libelleTheme",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierSansType",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fusionDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedureParlementaire",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreDossier",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InfosQualite",
+          "fields": [
+            {
+              "name": "codeQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libQualiteSex",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__Directive",
+          "fields": [
+            {
+              "name": "name",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "locations",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "args",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActeurInitiateur",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandatRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeCosignataire",
+          "fields": [
+            {
+              "name": "etApparentes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ActesLegislatifs",
+          "fields": [
+            {
+              "name": "actes",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AdoptionEurope",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infoJoce",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "statutAdoption",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "texteEuropeen",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "VoteRefs",
+          "fields": [
+            {
+              "name": "voteRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Themes",
+          "fields": [
+            {
+              "name": "niveau",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "theme",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Vimode",
+          "fields": [
+            {
+              "name": "dateAgrement",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotAmendements",
+          "fields": [
+            {
+              "name": "amendementsCommission",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "amendementsSeance",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AvisConseilEtat",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "classification",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "correction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "denominationStructurelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "imprimerie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "notice",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "redacteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "RenvoiCmp",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "initiateur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Sort",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Mandature",
+          "fields": [
+            {
+              "name": "causeFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "datePriseFonction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandatRemplaceRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "placeHemicycle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "premiereElection",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "MandatMission",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "datePublication",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "infosQualite",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "missionPrecedenteRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "missionSuivanteRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nominPrincipale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organesRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "preseance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeOrgane",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "OrganeInitiateurRef",
+          "fields": [
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossierParlementaire",
+          "fields": null
+        },
+        {
+          "name": "PodjSeanceConfPres",
+          "fields": [
+            {
+              "name": "comiteSecret",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateConfPres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateLettreMinistre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "demandeurPoint",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossiersLegislatifsRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "natureTravauxOdj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "objet",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "procedure",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "textesAssocies",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typePointOdj",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Int",
+          "fields": null
+        },
+        {
+          "name": "Query",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "agenda",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "agendaDossierLegislatif",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "deputes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "documents",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossiersParlementaires",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossiersParlementairesProchains",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossiersParlementairesRecents",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "fonctionsOrganes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organes",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "scrutins",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Acteur",
+          "fields": [
+            {
+              "name": "etatCivil",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "commissionPermanente",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "groupePolitique",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandats",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "photo",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "profession",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uriHatvp",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Plf",
+          "fields": [
+            {
+              "name": "etudePlf",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "FusionDossier",
+          "fields": [
+            {
+              "name": "cause",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierAbsorbantRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "SousType",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InfosHorsSian",
+          "fields": [
+            {
+              "name": "hatvpUri",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DocumentEtudeImpact",
+          "fields": [
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "classification",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "correction",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "cycleDeVie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "denominationStructurelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "divisions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dossierRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "imprimerie",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "indexation",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "notice",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "provenance",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "redacteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titres",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DossiersLegislatifsRefs",
+          "fields": [
+            {
+              "name": "dossiersRefs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TitreDossier",
+          "fields": [
+            {
+              "name": "titre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "titreChemin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "senatChemin",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "AuteurLeg",
+          "fields": [
+            {
+              "name": "acteur",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organe",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__InputValue",
+          "fields": [
+            {
+              "name": "name",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "type",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "defaultValue",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "GroupePolitique",
+          "fields": [
+            {
+              "name": "chambre",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "legislature",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelle",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrege",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleAbrev",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleEdition",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeParent",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "positionPolitique",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "regime",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "secretariat",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "vimode",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InitiateursSaisineConseilConstit",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__TypeKind",
+          "fields": null
+        },
+        {
+          "name": "Demandeurs",
+          "fields": [
+            {
+              "name": "acteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "acteursRefs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "CodeTypeOrgane",
+          "fields": null
+        },
+        {
+          "name": "Secretariat",
+          "fields": [
+            {
+              "name": "secretaire01",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "secretaire02",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "DepotMotionReferendaire",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "auteurs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "LieuReunion",
+          "fields": [
+            {
+              "name": "code",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleCourt",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleLong",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Collaborateur",
+          "fields": [
+            {
+              "name": "dateDebut",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateFin",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "nom",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "prenom",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "qualite",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Rapporteur",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "etudePlfRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeRapporteur",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Mission",
+          "fields": [
+            {
+              "name": "libelleCourt",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleLong",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "missions",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeBudget",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeMission",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TypeJo",
+          "fields": null
+        },
+        {
+          "name": "Rapporteurs",
+          "fields": [
+            {
+              "name": "rapporteurs",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Missions",
+          "fields": [
+            {
+              "name": "missions",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "Votant",
+          "fields": [
+            {
+              "name": "acteurRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "mandatRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "parDelegation",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "__EnumValue",
+          "fields": [
+            {
+              "name": "name",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "description",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "isDeprecated",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "deprecationReason",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "InfosReunionsInternationale",
+          "fields": [
+            {
+              "name": "estReunionInternationale",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "informationsComplementaires",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "listePays",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "TypeVote",
+          "fields": [
+            {
+              "name": "codeTypeVote",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleTypeVote",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeMajorite",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "CodeFonctionOrgane",
+          "fields": null
+        },
+        {
+          "name": "__DirectiveLocation",
+          "fields": null
+        },
+        {
+          "name": "Classification",
+          "fields": [
+            {
+              "name": "famille",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "sousType",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "statutAdoption",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "typeClassification",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        },
+        {
+          "name": "ProcedureAccelere",
+          "fields": [
+            {
+              "name": "actesLegislatifs",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "codeActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "dateActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "libelleActe",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "organeRef",
+              "description": null,
+              "deprecationReason": null
+            },
+            {
+              "name": "uid",
+              "description": null,
+              "deprecationReason": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
